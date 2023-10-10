@@ -33,7 +33,7 @@ def login(username,password):
     #     print("Userid not registered")
     # else:
     #     print("Password entered is wrong")
-    if(response['total']==1):
+    if (response['total']==1):
         print("Login successfully")
     else:
         print("Incorrect login details")
